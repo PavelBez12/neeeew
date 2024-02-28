@@ -1,0 +1,386 @@
+body{
+    width: 1405px;
+    color: #ffffff;
+    font-weight: 400;
+    margin: 0 auto;
+    background-color: #000000;
+}
+
+.header{
+    position: relative;
+    width: 100%;
+    height: 765px;
+    background-image: url(/resurs/imgheader.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.header__container{
+    width: 1155px;
+    margin: 0 125px;
+}
+
+.header__nav{
+    padding-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+}
+.header__img{
+    font-size: 32px;
+    color:#ffffff;
+    font-weight: 500;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+.header__img:hover{
+    color: #1BFF07;
+}
+.header__logo{
+    padding-top: 2px;
+    background-color: #000000;
+    width: 130px;
+    height: 39px;
+    border-radius: 100px;
+}
+
+.header__link_ul{
+    display: flex;
+}
+
+.header__link_li{
+    margin: 0 50px;
+}
+.header__link_li:nth-last-child(1){
+    margin-right: 0;
+}
+.header__link_li:nth-child(1){
+    margin-left: 0;
+}
+
+.header_nav_a{
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 18px;
+    line-height: 24px;
+}
+
+.header_nav_a:hover{
+    color: #1BFF07;
+}
+
+.header__title{
+    position: absolute;
+    display: block;
+    left: 125px;
+    bottom: 328px;
+    width: 430px;
+    height: 103px;
+    font-size: 19px;
+    line-height: 26px;
+    letter-spacing: -3%;
+    color: #ffffff;
+}
+
+.header__subtitle{
+    position: absolute;
+    left: 119px;
+    bottom: 94px;
+    top: 466px;
+    font-size: 70px;
+    line-height: 80px;
+    width: 919px;
+    color: #1BFF07;
+}
+
+.main{
+    background-color: #000000;
+}
+
+.main__container{
+    max-width: 1155px;
+    margin: 0 auto;
+    justify-content: center;
+    padding: 150px 0;
+    margin: 0 125px;
+}
+
+.main__title{
+    margin-bottom: 40px;
+    font-size: 55px;
+    line-height: 72px;
+    letter-spacing: -3%;
+}
+
+.main__title:hover{
+    color: #1BFF07;
+}
+
+.main__info__img{
+    position: relative;
+    width: 1155px;
+    box-sizing: border-box;
+}
+
+.main__content__title{
+    position: absolute;
+    bottom: 94px;
+    left: 50px;
+    font-size: 35px;
+    line-height: 46px;
+    letter-spacing: -3%;
+}
+
+.main__content__subtitle{
+    position: absolute;
+    bottom: 50px;
+    left: 50px;
+    font-size: 35px;
+    line-height: 46px;
+    letter-spacing: -3%;
+}
+
+.main__img{
+    width: 100%;
+}
+
+.main__btn{
+    padding-top: 80px;
+}
+
+.main__link{
+    display: block;
+    width: 582px;
+    padding: 58px 85px;
+    background-color: #1BFF07;
+    color: #000000;
+    font-size: 30px;
+    letter-spacing: -3%;
+    text-decoration: none;
+    text-align: center;
+    border-radius: 4px;
+}
+
+.main__link:hover{
+    background-color: #000000;
+    color: #1BFF07;
+    border: 1px solid #1BFF07;
+    border-radius: 4px;
+}
+
+.competencies{
+    background-color: #000000;
+}
+
+.competencies__container{
+    max-width: 1155px;
+    margin: 0 auto;
+    justify-content: center;
+    margin: 0 125px;
+    padding-bottom: 150px;
+}
+
+.competencies__title{
+    margin-bottom: 48px;
+    font-size: 55px;
+    line-height: 72px;
+    letter-spacing: -3%;
+    color: #ffffff;
+}
+
+
+.competencies__title:hover{
+    color: #1BFF07;
+}
+
+.competencies__img{
+    margin-bottom: 12px;
+    width: 45px;
+    height: 45px;
+    background-color: #1BFF07;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+   justify-content: center;
+}
+
+.competencies__img:hover{
+    background-color: #000000;
+    border: 1px solid#1BFF07;
+}
+
+.img{
+    display: block;
+    width: 24px;
+    height: 22px;
+}
+
+.img_phone{
+    width: 16px;
+    height: 26px;
+}
+
+.competencies__info__title{
+    margin-bottom: 15px;
+    max-width: 651px;
+    font-size: 35px;
+    line-height: 46px;
+    letter-spacing: -3px;
+    color: #1BFF07;
+}
+
+.competencies__subtitle{
+    margin-bottom: 60px;
+    width: 778px;
+    font-size: 22px;
+    line-height: 29px;
+    letter-spacing: -3px;
+    text-align: left;
+}
+
+.project{
+    background-color: #000000;
+}
+
+.project__container{
+    max-width: 1155px;
+    margin: 0 auto;
+    justify-content: center;
+    margin: 0 125px;
+    padding-bottom: 76px;
+}
+
+
+
+.project__title{
+    width: 403px;
+    margin-bottom: 74px;
+    font-size: 35px;
+    line-height: 46px;
+    letter-spacing: -3px;
+    color: #ffffff;
+}
+
+.project__title:hover{
+    color: #1BFF07;
+}
+
+.project__title__subtitle{
+   width: 100%;
+   max-height: 283px;
+   border-radius: 30px;
+   padding: 40px 62px 40px 40px;
+   background-color: #191C19;
+   margin-bottom: 74px;
+}
+
+
+.project__info__title{
+    margin-bottom: 15px;
+    font-size: 55px;
+    line-height: 72px;
+    letter-spacing: -3px;
+    color: #1BFF07;
+}
+
+.project__info__subtitle{
+    max-width: 749px;
+    font-size: 22px;
+    line-height: 29px;
+    letter-spacing: -3px;
+}
+
+.contact{
+    background-color: #191C19;
+}
+.contact__container{
+    margin-left: 125px;
+}
+
+.contact__container{
+    display: flex;
+    justify-content: space-between;
+
+}
+.contact__info{
+    position: relative;
+}
+.contact_title{
+    display: block;
+    width: 201px;
+    position: absolute;
+    top: 320px;
+    font-size: 32px;
+    line-height: 60px;
+    letter-spacing: -3px;
+}
+
+
+
+.link_instagram{
+    position: absolute;
+    bottom: 249px;
+    font-size: 60px;
+    line-height: 60px;
+    letter-spacing: -3px;
+    color: #ffffff; 
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.link_instagram:hover{
+    color: #1BFF07;
+}
+
+.link_telegram{
+    position: absolute;
+    bottom: 169px;
+    font-size: 60px;
+    line-height: 60px;
+    letter-spacing: -3px;
+    color: #ffffff; 
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.link_telegram:hover{
+    color: #1BFF07;
+}
+
+.link_mail{
+    position: absolute;
+    bottom: 89px;
+    font-size: 60px;
+    line-height: 60px;
+    letter-spacing: -3px;
+    color: #ffffff; 
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.link_mail:hover{
+    color: #1BFF07;
+}
+
+.developer__container{
+    width: 1155px;
+    margin: 0 125px;
+}
+
+.developer__title{
+    padding: 40px 0 40px;
+    text-align: center;
+    align-items: center;
+    font-size: 25px;
+    line-height: 30px;
+}
+
+.developer__link{
+    text-decoration: none;
+    color: #ffffff;
+    cursor: pointer;
+}
+.developer__link:hover{
+    color: #1BFF07;
+}
